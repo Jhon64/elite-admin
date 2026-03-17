@@ -1,0 +1,21 @@
+<aside
+  class="h-full transition-all duration-300"
+  [ngClass]="collapsed ? 'w-20' : 'w-52'"
+  style="box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08)"
+>
+  <div class="flex items-center">
+    <img
+      src="https://eliteadmin.themedesigner.in/demos/bt4/assets/images/logo-icon.png"
+      alt="logo2"
+      class="transition-all duration-300 ml-2"
+      [ngClass]="collapsed ? 'w-10 ml-5 mt-3 ' : 'w-10 h-10 my-4'"
+    />
+
+    <img
+      src="../../../assets/img/logo-text.png"
+      alt="logo"
+      class="transition-all duration-300 ml-2"
+      [ngClass]="collapsed ? 'hidden' : 'h-5'"
+    />
+  </div>
+</aside>

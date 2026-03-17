@@ -1,0 +1,7 @@
+theme: {
+  extend: {
+    colors: {
+     
+    }
+  }
+}

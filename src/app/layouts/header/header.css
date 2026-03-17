@@ -1,0 +1,5 @@
+input:focus {
+    outline: white solid 1px;
+    box-shadow: none;
+    padding-left: 4px;
+}
