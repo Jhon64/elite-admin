@@ -53,7 +53,7 @@ export class StandardService<T = any, R = T> {
   }
 
   getAll(props?: IFindAllProps<T>) {
-    debugger
+    // debugger
     return this.http2
       .Fetch({
         url: props?.url ?? '',

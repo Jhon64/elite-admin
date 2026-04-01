@@ -29,7 +29,7 @@ export class Http2 {
   // la informacion la procesamos en un servicio superior, para manejar los errores y la logica de negocio
   Fetch(config2?: IHttpConfig) {
     var config: IHttpConfig = { baseURL: this.config.baseURL, url: this.config.url } as IHttpConfig;
-    debugger;
+    // debugger;
     if (config2 && config2.baseURL) {
       config.baseURL = config2.baseURL;
     }

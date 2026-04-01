@@ -28,12 +28,12 @@ export namespace GlobalFunction {
   }
 
 	/** función para obtener el id del proyecto seleccionado del localsotarge*/
-	export const getEmpresasAsociadasStorage = () =>
-		localStorageHelper.getItemObject('__empresas')
+	export const getPublicKey = () =>
+		localStorageHelper.getItemString('_public_key')
 
 	/** función para setear el valor de id del proyecto  en el localsotarge*/
-	export const setEmpresaIDStorage = (empresaID: number) =>
-		localStorageHelper.createItem('_proyect_empresa_id', empresaID)
+	export const setPublicKey = (publicKey: string) =>
+		localStorageHelper.createItem('_public_key', publicKey)
 	/** función para obtener el id del proyecto seleccionado del localsotarge*/
 	export const getEmpresaIDStorage = () =>
 		localStorageHelper.getItemNumber('_proyect_empresa_id')
